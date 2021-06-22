@@ -1,0 +1,3 @@
+Tests a edge cases (such as attempting to rent rented books, finding genres with a space in between, and so on...) while integrating it with multiple other commands; more
+direction was applied to the usage of the commands, ensuring the interaction between each method were appropriate for the given conditions (i.e. you could not rent an already
+rented book, that relinquishing a book would only update member and book history, as well as ensuring that the common method worked appropriately).

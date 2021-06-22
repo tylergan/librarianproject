@@ -1,0 +1,12 @@
+relinquish all 100000
+add member Tyler
+relinquish all 100001
+ADD BOOK books.csv 111111
+list all long 
+rent 100000 111111
+list all long 
+list available
+relinquish all 100000
+list all long 
+list available
+exit

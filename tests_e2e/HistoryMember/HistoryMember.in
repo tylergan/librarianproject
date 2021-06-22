@@ -1,0 +1,10 @@
+Member History 100000
+add Member Tyler
+member history 100000
+add book books.csv 111111
+rent 100000 111111
+member history 100000
+member books 100000
+relinquish all 100000
+member history 100000
+exit

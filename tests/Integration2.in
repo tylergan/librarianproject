@@ -1,0 +1,41 @@
+COMMANDS
+list all long
+add member Tyler
+add member John
+add member Harold
+rent 100000 111111
+add collection books.csv
+rent 100000 111111
+rent 100000 111111
+rent 100000 111112
+rent 100000 111113
+list all long
+list available
+member books 100000
+member history 100000
+book history 111111
+relinquish all 100000
+member history 100000
+book history 111111
+book history 999999
+list all long
+list available
+rent 100001 111111
+rent 100001 111112
+rent 100002 111113
+member books 100001
+relinquish 100001 111111
+relinquish 100001 111111
+member books 100001
+member history 100001
+relinquish all 100001
+relinquish all 100002
+common 100000 100001 100002
+rent 100002 111111
+relinquish all 100002
+common 100000 100001 100002
+genre historical fiction
+author J.K. Rowling
+list genres
+list authors
+exit

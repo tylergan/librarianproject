@@ -1,0 +1,9 @@
+relinquish 100000 111111
+add member John
+relinquish 100000 111111
+add collection books.csv
+relinquish 100001 222222
+relinquish 100000 111111
+rent 100000 111111
+relinquish 100000 111111
+exit

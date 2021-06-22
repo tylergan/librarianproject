@@ -1,0 +1,1 @@
+Testing the common method by addining two individuals and getting them to rent and relinquish the same book.

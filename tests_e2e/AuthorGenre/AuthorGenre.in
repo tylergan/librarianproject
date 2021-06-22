@@ -1,0 +1,9 @@
+ADD book books.csv 111111
+GENRE Fantasy
+AUTHOR Bob Kane
+ADD COLLECTION books.csv
+LIST GENRES
+LIST AUTHORS
+GENRE Fantasy
+AUTHOR Bob Kane
+EXIT

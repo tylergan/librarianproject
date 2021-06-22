@@ -1,0 +1,1 @@
+Testing for no commands - just exit

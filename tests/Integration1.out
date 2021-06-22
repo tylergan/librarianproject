@@ -1,0 +1,247 @@
+user: EXIT ends the library process
+COMMANDS outputs this help string
+
+LIST ALL [LONG] outputs either the short or long string for all books
+LIST AVAILABLE [LONG] outputs either the short of long string for all available books
+NUMBER COPIES outputs the number of copies of each book
+LIST GENRES outputs the name of every genre in the system
+LIST AUTHORS outputs the name of every author in the system
+
+GENRE <genre> outputs the short string of every book with the specified genre
+AUTHOR <author> outputs the short string of every book by the specified author
+
+BOOK <serialNumber> [LONG] outputs either the short or long string for the specified book
+BOOK HISTORY <serialNumber> outputs the rental history of the specified book
+
+MEMBER <memberNumber> outputs the information of the specified member
+MEMBER BOOKS <memberNumber> outputs the books currently rented by the specified member
+MEMBER HISTORY <memberNumber> outputs the rental history of the specified member
+
+RENT <memberNumber> <serialNumber> loans out the specified book to the given member
+RELINQUISH <memberNumber> <serialNumber> returns the specified book from the member
+RELINQUISH ALL <memberNumber> returns all books rented by the specified member
+
+ADD MEMBER <name> adds a member to the system
+ADD BOOK <filename> <serialNumber> adds a book to the system
+
+ADD COLLECTION <filename> adds a collection of books to the system
+SAVE COLLECTION <filename> saves the system to a csv file
+
+COMMON <memberNumber1> <memberNumber2> ... outputs the common books in members' history
+
+user: No books in system.
+
+user: No books in system.
+
+user: No books in system.
+
+user: No books in system.
+
+user: No books in system.
+
+user: No members in system.
+
+user: No members in system.
+
+user: No books in system.
+
+user: No books in system.
+
+user: Success.
+
+user: 17 books successfully added.
+
+user: 111111: To Kill a Mockingbird (Harper Lee, Historical Fiction)
+Currently available.
+
+111112: The Hobbit (J.R.R. Tolkien, Fantasy)
+Currently available.
+
+111113: The Iliad (Homer, Poetry)
+Currently available.
+
+111114: The Odyssey (Homer, Poetry)
+Currently available.
+
+111115: The Hitchhiker's Guide to the Galaxy (Douglas Adams, Comedy)
+Currently available.
+
+111116: So Long and Thanks for all the Fish (Douglas Adams, Comedy)
+Currently available.
+
+111117: Batman Volume 1 (Bob Kane, Comic)
+Currently available.
+
+111118: Harry Potter 1 (J.K. Rowling, Fantasy)
+Currently available.
+
+111119: Harry Potter 2 (J.K. Rowling, Fantasy)
+Currently available.
+
+111120: Harry Potter 3 (J.K. Rowling, Fantasy)
+Currently available.
+
+111121: Harry Potter 4 (J.K. Rowling, Fantasy)
+Currently available.
+
+111122: Harry Potter 5 (J.K. Rowling, Fantasy)
+Currently available.
+
+111123: Harry Potter 6 (J.K. Rowling, Fantasy)
+Currently available.
+
+111124: Wasteland (T.S. Eliot, Poetry)
+Currently available.
+
+111125: Biggles in the Battle (W.E. Johns, War)
+Currently available.
+
+111126: Aeneid (Virgil, Epic)
+Currently available.
+
+111127: Halloween (Jamie Lee Curtis, Horror)
+Currently available.
+
+user: To Kill a Mockingbird (Harper Lee)
+The Hobbit (J.R.R. Tolkien)
+The Iliad (Homer)
+The Odyssey (Homer)
+The Hitchhiker's Guide to the Galaxy (Douglas Adams)
+So Long and Thanks for all the Fish (Douglas Adams)
+Batman Volume 1 (Bob Kane)
+Harry Potter 1 (J.K. Rowling)
+Harry Potter 2 (J.K. Rowling)
+Harry Potter 3 (J.K. Rowling)
+Harry Potter 4 (J.K. Rowling)
+Harry Potter 5 (J.K. Rowling)
+Harry Potter 6 (J.K. Rowling)
+Wasteland (T.S. Eliot)
+Biggles in the Battle (W.E. Johns)
+Aeneid (Virgil)
+Halloween (Jamie Lee Curtis)
+
+user: Success.
+
+user: The Hobbit (J.R.R. Tolkien)
+The Iliad (Homer)
+The Odyssey (Homer)
+The Hitchhiker's Guide to the Galaxy (Douglas Adams)
+So Long and Thanks for all the Fish (Douglas Adams)
+Batman Volume 1 (Bob Kane)
+Harry Potter 1 (J.K. Rowling)
+Harry Potter 2 (J.K. Rowling)
+Harry Potter 3 (J.K. Rowling)
+Harry Potter 4 (J.K. Rowling)
+Harry Potter 5 (J.K. Rowling)
+Harry Potter 6 (J.K. Rowling)
+Wasteland (T.S. Eliot)
+Biggles in the Battle (W.E. Johns)
+Aeneid (Virgil)
+Halloween (Jamie Lee Curtis)
+
+user: To Kill a Mockingbird (Harper Lee)
+The Hobbit (J.R.R. Tolkien)
+The Iliad (Homer)
+The Odyssey (Homer)
+The Hitchhiker's Guide to the Galaxy (Douglas Adams)
+So Long and Thanks for all the Fish (Douglas Adams)
+Batman Volume 1 (Bob Kane)
+Harry Potter 1 (J.K. Rowling)
+Harry Potter 2 (J.K. Rowling)
+Harry Potter 3 (J.K. Rowling)
+Harry Potter 4 (J.K. Rowling)
+Harry Potter 5 (J.K. Rowling)
+Harry Potter 6 (J.K. Rowling)
+Wasteland (T.S. Eliot)
+Biggles in the Battle (W.E. Johns)
+Aeneid (Virgil)
+Halloween (Jamie Lee Curtis)
+
+user: Success.
+
+user: Success.
+
+user: Success.
+
+user: Success.
+
+user: Success.
+
+user: Success.
+
+user: Success.
+
+user: No such member in system.
+
+user: No such member in system.
+
+user: 100002: Harold
+
+user: To Kill a Mockingbird (Harper Lee)
+
+user: To Kill a Mockingbird (Harper Lee)
+
+user: To Kill a Mockingbird (Harper Lee)
+
+user: To Kill a Mockingbird (Harper Lee)
+
+user: Member not currently renting.
+
+user: Success.
+
+user: The Hobbit (J.R.R. Tolkien)
+
+user: To Kill a Mockingbird (Harper Lee)
+
+user: 111111: To Kill a Mockingbird (Harper Lee, Historical Fiction)
+Currently available.
+
+111112: The Hobbit (J.R.R. Tolkien, Fantasy)
+Rented by: 100000.
+
+111113: The Iliad (Homer, Poetry)
+Currently available.
+
+111114: The Odyssey (Homer, Poetry)
+Currently available.
+
+111115: The Hitchhiker's Guide to the Galaxy (Douglas Adams, Comedy)
+Currently available.
+
+111116: So Long and Thanks for all the Fish (Douglas Adams, Comedy)
+Currently available.
+
+111117: Batman Volume 1 (Bob Kane, Comic)
+Currently available.
+
+111118: Harry Potter 1 (J.K. Rowling, Fantasy)
+Currently available.
+
+111119: Harry Potter 2 (J.K. Rowling, Fantasy)
+Currently available.
+
+111120: Harry Potter 3 (J.K. Rowling, Fantasy)
+Currently available.
+
+111121: Harry Potter 4 (J.K. Rowling, Fantasy)
+Currently available.
+
+111122: Harry Potter 5 (J.K. Rowling, Fantasy)
+Currently available.
+
+111123: Harry Potter 6 (J.K. Rowling, Fantasy)
+Currently available.
+
+111124: Wasteland (T.S. Eliot, Poetry)
+Currently available.
+
+111125: Biggles in the Battle (W.E. Johns, War)
+Currently available.
+
+111126: Aeneid (Virgil, Epic)
+Currently available.
+
+111127: Halloween (Jamie Lee Curtis, Horror)
+Currently available.
+
+user: Ending Library process.

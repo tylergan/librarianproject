@@ -1,0 +1,6 @@
+ADD COLLECTION books.csv
+LIST ALL
+LIST ALL LONG
+List available
+list available long
+EXIT

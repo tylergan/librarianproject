@@ -1,0 +1,12 @@
+rent 100000 111111
+add member John
+rent 100000 111111
+add book books.csv 111111
+list all long
+list available
+rent 100001 222222
+rent 100000 222222
+rent 100000 111111
+list all long
+list available
+exit

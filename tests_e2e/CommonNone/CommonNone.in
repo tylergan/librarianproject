@@ -1,0 +1,9 @@
+add member John
+add member I Love Poodle Man
+add collection books.csv
+rent 100000 111111
+relinquish all 100000
+rent 100001 111112
+relinquish all 100001
+common 100000 100001
+exit

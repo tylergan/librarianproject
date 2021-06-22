@@ -1,0 +1,2 @@
+Testing for long names with spaces in between (ensuring the program obtains the whole name rather than just a partial aspect of the name); this is also testing the get member
+method.

@@ -1,0 +1,37 @@
+COMMANDS
+LIST ALL
+LIST AVAILABLE
+NUMBER COPIES
+LIST GENRES
+LIST AUTHORS
+MEMBER 100000
+MEMBER BOOKS 100000
+GENRE Fantasy
+author J.K. Rowling
+add member Tyler
+add collection books.csv
+list all long
+list all
+rent 100000 111111
+list available 
+list all
+add member John
+relinquish all 100000
+rent 100001 111111
+add member Harold
+relinquish all 100001
+rent 100002 111111
+relinquish all 100002
+rent 100003 111111
+member 100003
+member 100002
+common 100000 100001 100002  
+member history 100000
+member history 100001
+member history 100002
+member books 100000
+rent 100000 111112
+member books 100000
+common 100000 100001 100002
+list all long
+exit
